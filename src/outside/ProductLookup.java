@@ -12,7 +12,7 @@ import java.util.Iterator;
 public class ProductLookup {
     private DictionaryADT<String, StockItem> dictionary;
    
-    // Constructor.  There is no argument-less constructor, or default size
+    // Constructor.  There is no argument-less constructor, or default size 
     public ProductLookup(int maxSize) {
         dictionary = new Hashtable<String, StockItem>(maxSize);
                     // new BinarySearchTree<String, StockItem> ();

@@ -16,7 +16,7 @@ public class StockItem implements Comparable<StockItem> {
     float cost;
     float retail;
    
-    // Constructor.  Creates a new StockItem instance.  
+    // Constructor.  Creates a new StockItem instance.   
     public StockItem(String SKU, String description, String vendor,
                      float cost, float retail) {
         this.SKU = SKU;

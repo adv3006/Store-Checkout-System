@@ -10,7 +10,7 @@ import java.util.NoSuchElementException;
 public interface DictionaryADT<K extends Comparable<K>, V> {
 
     // Returns true if the dictionary has an object identified by
-    // key in it, otherwise false.
+    // key in it, otherwise false. 
     public boolean contains(K key);
 
     // Adds the given key/value pair to the dictionary. Returns

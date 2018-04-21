@@ -28,7 +28,7 @@ public class Hashtable<K extends Comparable<K>, V> implements DictionaryADT<K, V
         public int compareTo(Wrapper<K, V> w) {
             return ((Comparable<K>) key).compareTo((K) w.key);
         }
-    } // End of Wrapper class
+    } // End of Wrapper class 
     
     // Unordered Linked List
     class LinkedList<T extends Comparable<T>> implements Iterable<T> {

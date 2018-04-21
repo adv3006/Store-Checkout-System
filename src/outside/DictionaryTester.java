@@ -9,7 +9,7 @@ not available to you will be used for grading your project.
 
 If your BST class crashes with ordered data, then try setting 
 a larger stack size with the -Xss switch.  ie
-
+ 
 java -Xss128M DictionaryTester
 
 CS310  Spring 2018
